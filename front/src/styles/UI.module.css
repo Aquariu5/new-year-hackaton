@@ -1,0 +1,13 @@
+.Header {
+    background-color: aquamarine;
+    height: 10vh;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Table {
+    background-color: bisque;
+    margin-left: 10px;
+}

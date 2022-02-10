@@ -1,0 +1,86 @@
+.Test {
+    display: 'flex';
+    flex-direction: 'row';
+    justify-content: 'space-between';
+    
+}
+.Test td:hover{
+    cursor: pointer;
+}
+
+.Search:hover {
+    cursor: pointer;
+}
+
+.Header {
+    height: 7vh;
+    background-color: rgba(152, 155, 143, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: small-caps bold 32px sans-serif;
+    color: rgba(224, 0, 7, 0.979);
+    padding-right: 8vw;
+    font-size: xxx-large;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.Bad {
+    width: 48vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(197, 11, 11, 0.9);
+    color: white;
+}
+
+.BadNone {
+    display: none;
+}
+
+.Path {
+    width: 40vw;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.Star {
+    Position: absolute;
+    left: 44vw;
+    top: 10vh;
+    z-Index: 0;
+    width: 100px;
+    animation: roll infinite 5s;
+}
+
+.Table {
+
+}
+
+.Table tbody, thead {
+    display: block;
+}
+
+.Table tbody {
+   overflow: auto;
+   height: 30vh;
+}
+.Table td {
+    width: 48vw;
+    text-align: center
+}
+@keyframes roll {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}

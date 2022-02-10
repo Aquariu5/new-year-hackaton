@@ -1,0 +1,7 @@
+
+.Countries  {
+    background-color: seagreen;
+}
+.Countries td:hover {
+    cursor: pointer;
+}

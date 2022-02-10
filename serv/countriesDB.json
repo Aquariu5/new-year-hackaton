@@ -1,0 +1,53 @@
+{
+          "countries": [
+                    {
+                              "name": "США",
+                              "to": [
+                                        "RQ-11 Raven",
+                                        "Wasp III",
+                                        "RQ-20 Puma",
+                                        "RQ-16 T-Hawk",
+                                        "MQ-9 Reaper",
+                                        "RQ-4 Global Hawk",
+                                        "RQ-170 Sentinel"
+                              ]
+                    },
+                    {
+                              "name": "Россия",
+                              "to": [
+                                        "Дозор-600",
+                                        "Корсар",
+                                        "С-70 Охотник",
+                                        "Гелиос-РЛД",
+                                        "Oрион"
+                              ]
+                    },
+                    {
+                              "name": "Израиль",
+                              "to": [
+                                        "Orbiter",
+                                        "Эйтан",
+                                        "Harop"
+                              ]
+                    },
+                    {
+                              "name": "Китай",
+                              "to": [
+                                        "Wing Loong",
+                                        "DF-ZF",
+                                        "CAIG Wing Loong",
+                                        "AVIC Cloud Shadow",
+                                        "CASC Rainbow CH-4"
+                              ]
+                    },
+                    {
+                              "name": "Турция",
+                              "to": [
+                                        "Kargu-2",
+                                        "Bayraktar TB2",
+                                        "TAI Gözcü",
+                                        "TAI ANKA"
+                              ]
+                    }
+          ]
+}
